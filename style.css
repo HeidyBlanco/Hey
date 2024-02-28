@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Paprika&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+
+header{background-color:beige;  display: flex; flex-direction: row; align-items: center; font-size: medium; justify-content: space-between; } 
+header img{width: 70px;}
+.Logo img{width: 200px;}
+header a{list-style: none;}
+
+p{font-family: "Quicksand", sans-serif; font-optical-sizing: auto; font-weight: weight; font-style: normal;}
+
+nav ul{background-color:rgba(0, 231, 200, 0.482); margin: 0%; display: flex; justify-content:space-evenly; list-style: none; }
+nav li{color: black; font-family: "Paprika", system-ui; font-weight: 400; font-style: normal; align-items: center; contain:layout; text-decoration:underline; display: flex;  align-items: center; padding: 6%;}
+nav img{width: 18px;}
+
+.EXPLORA{display: flex; flex-direction: column;align-items: center; }
+.carousel-inner{width: 100%;height: 380px;}
+.carousel-caption h5 p{display: flex; justify-content: flex-start; font-size: xx-large; position:sticky;}
+
+.PORQUE h1{display: flex; flex-direction: column ;align-items: center; margin: 2%;  font-family: "Kalam", cursive; font-weight: 550; font-style:normal; }
+.Elementos{display: flex; flex-direction: row; justify-content: space-around; }
+.Elementos img{width: 90px;}
+.Elementos h2{font-size:larger; font-family: "Paprika"; margin: 3%; }
+.Elementos p{width: 95%; margin:2%; text-align: center;}
+.Recuerdos{display: flex; flex-direction: column; align-items:center;}
+.Flex{display: flex; flex-direction: column; align-items: center;}
+.Servicio{display: flex; flex-direction: column; align-items: center;}
+.PORQUE{margin-bottom: 2%;}
+
+#DESTINOS{display: flex;  flex-direction: column; align-items: center; margin-bottom: 2%; background-color: beige; }
+#DESTINOS h1{margin: 2%; font-family: "Paprika"; }
+.Contenido{display: flex; flex-direction: row; flex-wrap: wrap; justify-content:center; }
+.Contenido img{width: 180px; padding: 0.8%; border-radius: 18%;}
+
+#SERVICIOS{display: flex; flex-direction: column; align-items: center;}
+#SERVICIOS h1{ font-family: "Kalam", cursive; font-weight: 550; font-style:normal;}
+#SERVICIOS h2{font-size: large; font-family: "Paprika"; font-size: medium;}
+#SERVICIOS img{width: 120px;}
+.liuno ul{display: flex; flex-direction:row; font-family: "Quicksand", sans-serif; font-optical-sizing: auto; font-weight: weight; font-style: normal;}
+.lidos ul{display: flex; flex-direction:row; justify-content: space-between; font-family: "Quicksand", sans-serif; font-optical-sizing: auto; font-weight: weight; font-style: normal;}
+#SERVICIOS li{margin-left: 1%; margin-right: 1%;}
+
+#ACTIVIDADES{display: flex; flex-direction: column; align-items: center; background-color: beige;}
+#ACTIVIDADES h1{margin: 2%; font-family: "Paprika";}
+#ACTIVIDADES h2{font-family: "Kalam", cursive; font-weight: 700; font-style:normal;; font-size:25px;}
+#ACTIVIDADES p{font-size:18px; font-weight: 400;}
+#ACTIVIDADES li{display: flex; flex-direction: row; align-items: center; width:315px; height: 118.8px;}
+#ACTIVIDADES img{width: 100px; height: 100px;margin:2%; border-radius: 100%;}
+#ACTIVIDADES ul{display: flex; flex-direction: row;}
+
+.FLEXIBILIDAD{display: flex; flex-direction: column; align-items:center;}
+.FLEXIBILIDAD h1{margin:2%;  font-family: "Kalam", cursive; font-weight: 550; font-style:normal; }
+.FLEXIBILIDAD p{display: flex;  width: 92%; }
+.FLEXIBILIDAD img{width: 40px; height: 40px; display: flex;}
+.info{display: flex; flex-direction: column; align-items: center;}
+
+footer{background-color:rgba(0, 231, 200, 0.482); display: flex; flex-direction: row; align-content: space-between ;}
